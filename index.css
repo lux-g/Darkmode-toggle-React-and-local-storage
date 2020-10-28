@@ -1,0 +1,24 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.light-mode {
+    background-color: #fff;
+    color: #333;
+    transition: all 900ms ease;
+}
+.dark-mode {
+    background-color: black;
+    color: gray;
+    transition: all 900ms ease;
+}
+#main {
+    height: 100vh;
+    transition: all 900ms ease;
+}
+.fa-icon {
+    margin: 25px;
+    cursor: pointer;
+    color:orange;
+}
